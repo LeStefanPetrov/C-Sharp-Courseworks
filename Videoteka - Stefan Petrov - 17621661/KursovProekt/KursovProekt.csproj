@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{514FB90D-C9A6-4649-A327-0F020F32C682}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KursovProekt</RootNamespace>
+    <AssemblyName>KursovProekt</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Default.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Default.Designer.cs">
+      <DependentUpon>Default.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Insert.Designer.cs">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KursovProektDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KursovProektDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KursovProektDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KursovProektDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Queries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Queries.Designer.cs">
+      <DependentUpon>Queries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Default.resx">
+      <DependentUpon>Default.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Queries.resx">
+      <DependentUpon>Queries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="KursovProektDataSet.xsc">
+      <DependentUpon>KursovProektDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KursovProektDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KursovProektDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KursovProektDataSet.xss">
+      <DependentUpon>KursovProektDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KursovProektDataSet1.xsc">
+      <DependentUpon>KursovProektDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KursovProektDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KursovProektDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KursovProektDataSet1.xss">
+      <DependentUpon>KursovProektDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

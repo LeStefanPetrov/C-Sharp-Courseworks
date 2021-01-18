@@ -1,0 +1,30 @@
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\bin\Debug\KursovProekt.exe.config
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\bin\Debug\KursovProekt.exe
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\bin\Debug\KursovProekt.pdb
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.csprojAssemblyReference.cache
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Form1.resources
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Properties.Resources.resources
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.csproj.GenerateResource.cache
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.exe
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.pdb
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Insert.resources
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Delete.resources
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Update.resources
+E:\Programming\Uni\C#\KursovProekt\KursovProekt\obj\Debug\KursovProekt.Default.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\bin\Debug\KursovProekt.exe.config
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\bin\Debug\KursovProekt.exe
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\bin\Debug\KursovProekt.pdb
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.csprojAssemblyReference.cache
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Default.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Delete.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Form1.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Insert.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Properties.Resources.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Update.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.csproj.GenerateResource.cache
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.exe
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.pdb
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Customer.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Purchase.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.Queries.resources
+E:\Programming\Uni\C#\Videoteka - Stefan Petrov - 17621661\KursovProekt\obj\Debug\KursovProekt.csproj.CoreCompileInputs.cache
